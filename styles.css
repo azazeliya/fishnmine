@@ -47,12 +47,16 @@ header img {
     height: 30vh;
 }
 
+#top {
+    height: 15vh;
+}
+
 .container {
     background: rgba(255, 255, 255, 0.8);
     height: 100vh;
     overflow-y: scroll;
     text-align: left;
-    padding: 25vh 25% 25vh 10%;
+    padding: 0 25% 25vh 10%;
     color: rgba(0, 0, 0, 0.7);
     font-family: "K2D", serif;
     text-decoration: none;
@@ -74,6 +78,12 @@ header img {
 
 .pic {
     height: 45vh;
+    border-radius: 5px;
+}
+
+.pic2 {
+    width: 90%;
+    border-radius: 5px;
 }
 
 .container h3 li {
@@ -86,6 +96,14 @@ a {
     background: rgb(0, 0, 0, 0.7);
     padding: 2px 7px;
     border-radius: 5px;
+}
+
+.nobg {
+    background: none;
+}
+
+.nobg:hover {
+    filter: saturate(180%);
 }
 
 .pink {
