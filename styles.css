@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|K2D|Rosario|Acme');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body {
+	text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(../images/bodybg.jpg) no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10vh;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.9);
+    height: 80vh;
+    border-radius: 5pt 0 0 5pt;
+    overflow: hidden;
+}
+
+header h1 {
+    color: rgba(255, 255, 255, 0.76);
+    margin: 0 1em;
+    font-size: 2em;
+    font-family: "Hammersmith One";
+}
+
+header h2 {
+    color: rgb(119, 137, 235);
+    margin: 0 0.5em;
+    padding: 0.5em;
+    font-size: 2.5em;
+    font-family: "Acme";
+    border: solid rgb(82, 177, 255);
+}
+
+header img {
+    height: 30vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    height: 80vh;
+    border-radius: 0 5pt 5pt 0;
+    overflow-y: scroll;
+    text-align: left;
+    padding: 5vh 5%;
+    color: rgb(51, 51, 136);
+    font-family: "K2D", serif;
+}
+
+.container h1 {
+    font-family: "Rosario", sans-serif;
+    font-size: 3em;
+    color: rgb(51, 51, 136);
+    text-decoration: underline;
+}
+
+.container h2 {
+    padding-left: 2em;
+}
+
+.container h3 {
+    padding-left: 5em;
+}
+
+.pic {
+    height: 35vh;
+}
+
+.container h3 li {
+    margin-top: 4vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 126, 148);
+}
+
+.foot {
+    padding: 2vh 0 10vh 0;
+}
